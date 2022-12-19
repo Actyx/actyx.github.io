@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Actyx</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!--    Enable for hot-reload during development-->
+    <!--    <script type="text/javascript" src="https://livejs.com/live.js"></script>-->
+    <style>
+        mark {
+            color: #480451;
+            background-color: white;
+        }
+    </style>
+
 </head>
-<body>
-<p>Coming soon!</p>
+<body class="bg-[#fcfced] flex justify-center w-screen">
+<div class="px-4 py-6 lg:px-12 lg:py-8 max-w-6xl">
+    <!-- Header-->
+    <div class="lg:flex justify-between items-center pb-8 lg:pb-36 space-y-4 lg:space-y-0">
+        <h1 class="text-3xl">Actyx</h1>
+        <ul class="flex space-x-5 text-xl font-light">
+            <li><a class="hover:underline" href="https://developer.actyx.com" target="_blank" rel="noopener noreferrer">Docs</a></li>
+            <li><a class="hover:underline" href="https://actyx.notion.site/Jobs-Actyx-2e33f9042fcc45bdaa0b369a1af4897d" target="_blank" rel="noopener noreferrer">Jobs</a></li>
+            <li><a class="hover:underline" href="imprint.html">Imprint</a></li>
+        </ul>
+    </div>
+    <!-- Body-->
+    <div class="flex flex-col lg:flex-row-reverse space-y-4 lg:space-x-8 lg:space-x-reverse justify-evenly lg:items-center">
+        <img class="w-full sm:w-2/3 md:w-1/2 " src="dall-e-is-awesome.png" />
+        <p class="text-3xl lg:text-4xl xl:text-5xl mb-2 leading-normal">We build protocols, tools and services to radically improve the <mark>resilience</mark> of technical systems.</p>
+
+    </div>
+
+</div>
 
 </body>
 </html>
