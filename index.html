@@ -9,6 +9,12 @@
     <!--    Enable for hot-reload during development-->
 <!--        <script type="text/javascript" src="https://livejs.com/live.js"></script>-->
     <style>
+        @media (max-width: 800px) {
+            html {
+            /* … */
+                font-size: 20px;
+            }
+        }
         mark {
             color: #480451;
             background-color: unset;
@@ -18,7 +24,7 @@
     </style>
 
 </head>
-<body class="bg-[#fcfced] flex justify-center w-screen">
+<body class="bg-[#fcfced] flex justify-center">
 <div class="px-4 py-6 lg:px-12 lg:py-8 max-w-6xl">
     <!-- Header-->
     <div class="lg:flex justify-between items-center pb-8 lg:pb-36 space-y-4 lg:space-y-0">
